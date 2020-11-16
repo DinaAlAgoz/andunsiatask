@@ -1,0 +1,84 @@
+$primarycolor :#eb6a3d;
+$colortow:#ca3423;
+$basiccolor:b7b7b7;
+$secondcolor:gray;
+$backgroundcolor:#363636;
+$basic:#FFFF;
+$fontfamily: 'Open Sans', sans-serif;
+
+
+
+body {
+
+
+    font-family: "Open Sans", sans-serif !important;
+   
+  
+
+}
+
+     
+  #themes {
+      
+    background-image: linear-gradient(to right,$primarycolor,$colortow);
+
+    .themeone {
+
+        position: relative;
+    }
+
+    .themeone  {
+       padding: 14px;
+    }
+
+    .section-header {
+
+        position: relative;
+    }
+
+  .section-header h3 {
+
+    color: $basic;
+    padding: 30px 0px 10px 0px; 
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 25px;
+  }
+
+  .borderstheme {
+
+    text-align: center;
+    display: inline-flex;
+  }
+
+  .border1 {
+
+    background-color: $basic;
+    width: 8px;
+    height: 8px;
+    transform: rotate(45deg);
+    margin-right: 12px;
+
+  }
+
+  .border2{
+
+    background-color: $basic;
+    width: 60px;
+    height: 8px;
+    margin-right: 12px;
+  }
+
+  .border3{
+
+    background-color: $basic;
+    width: 30px;
+    height: 8px;
+    
+    
+  }
+
+
+}
+

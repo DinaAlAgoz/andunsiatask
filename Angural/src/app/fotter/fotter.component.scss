@@ -1,0 +1,168 @@
+
+
+
+$primarycolor :#eb6a3d;
+$colortow:#ca3423;
+$basiccolor:b7b7b7;
+$secondcolor:gray;
+$backgroundcolor:#363636;
+$basic:#FFFF;
+$fontfamily: 'Open Sans', sans-serif;
+
+
+
+body {
+
+
+    font-family: "Open Sans", sans-serif !important;
+   
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+  #footer {
+      
+    background-color: $backgroundcolor;
+ 
+     .footer-top {
+ 
+         padding-bottom: 28px;
+     }
+ 
+     .footer-top h3 {
+ 
+       padding: 25px 30px 25px 0px; 
+        color: $basic;
+        font-weight: 100;
+        font-family: $fontfamily;
+        margin-bottom: 10px;
+        letter-spacing: 3px;
+ 
+ 
+     }
+ 
+     .footer-top h4 {
+       
+         color: $basic;
+         font-weight: 400;
+         font-family: $fontfamily;
+         margin-bottom: 20px;
+         text-transform: uppercase;
+         font-size: 18px;
+         margin-top: 20px;
+ 
+     }
+     .footer-links ul {
+ 
+         list-style: none;
+         padding: 0;
+         margin: 0;
+     }
+ 
+     .footer-links ul li {
+ 
+         padding: 4px 0px;
+         color: #969690 !important
+     }
+ 
+     .footer-links ul a {
+ 
+         padding: 4px 0px;
+         color: $secondcolor!important;
+         text-transform: uppercase;;
+     }
+ 
+      .footer-newsletter {
+ 
+         position: relative;
+      }
+ 
+      @media (max-width:768px){
+ 
+         
+             .footer-newsletter {
+ 
+                 margin-left: 0px;
+             }
+         }
+ 
+     
+          
+      
+ 
+     .footer-newsletter form {
+ 
+         margin-top: 30px;
+         background: #fff;
+         padding: 6px 10px;
+         position: relative;
+         border-radius: 4px;
+         margin-bottom: 30px;
+     }
+ 
+ 
+     .footer-newsletter input[type="email"] {
+ 
+         border: 0;
+         padding: 4px;
+         width: calc(90% - 110px);
+     }
+ 
+     .footer-newsletter input[type="submit"] {
+ 
+     position: absolute;
+     top: 0;
+     right: -2px;
+     bottom: 0;
+     border: 0;
+     background: none;
+     font-size: 16px;
+     padding: 0 20px 2px 20px;
+     background: #ed502e;
+     color: #fff;
+     transition: 0.3s;
+     border-radius: 0 4px 4px 0;
+     }
+ 
+     .footer-newsletter .copyright {
+ 
+         color: $secondcolor;
+         margin-bottom: 15px;
+     }
+ 
+     .social-links a{
+ 
+         font-size: 18px;
+         display: inline-block;
+         color: $secondcolor;
+         line-height: 1;
+         padding: 10px 0;
+         margin-right: 4px;
+         border-radius: 4px;
+         text-align: center;
+         width: 36px;
+         height: 36px;
+         transition: 0.3s;
+        
+     }
+ 
+     .social-links a:hover{
+ 
+         background-color: $primarycolor;
+         transition: 0.3s;
+         color: $basic;
+        
+     }
+ 
+ 
+     
+ }

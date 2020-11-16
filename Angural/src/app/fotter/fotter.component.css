@@ -1,0 +1,116 @@
+body {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+#footer {
+  background-color: #363636;
+}
+
+#footer .footer-top {
+  padding-bottom: 28px;
+}
+
+#footer .footer-top h3 {
+  padding: 25px 30px 25px 0px;
+  color: #FFFF;
+  font-weight: 100;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 10px;
+  letter-spacing: 3px;
+}
+
+#footer .footer-top h4 {
+  color: #FFFF;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+#footer .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-links ul li {
+  padding: 4px 0px;
+  color: #969690 !important;
+}
+
+#footer .footer-links ul a {
+  padding: 4px 0px;
+  color: gray !important;
+  text-transform: uppercase;
+}
+
+#footer .footer-newsletter {
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  #footer .footer-newsletter {
+    margin-left: 0px;
+  }
+}
+
+#footer .footer-newsletter form {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+#footer .footer-newsletter input[type="email"] {
+  border: 0;
+  padding: 4px;
+  width: calc(90% - 110px);
+}
+
+#footer .footer-newsletter input[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: -2px;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px 2px 20px;
+  background: #ed502e;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 0 4px 4px 0;
+}
+
+#footer .footer-newsletter .copyright {
+  color: gray;
+  margin-bottom: 15px;
+}
+
+#footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  color: gray;
+  line-height: 1;
+  padding: 10px 0;
+  margin-right: 4px;
+  border-radius: 4px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#footer .social-links a:hover {
+  background-color: #eb6a3d;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #FFFF;
+}
+/*# sourceMappingURL=fotter.component.css.map */

@@ -1,0 +1,221 @@
+body {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+#features {
+  padding-bottom: 10rem;
+  background-image: url("../../assets/Home op2.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  #features {
+    padding-bottom: 5rem;
+  }
+}
+
+#features .btserv {
+  border: 2px solid lightgray !important;
+  border-radius: 5px;
+  padding: 8px 35px;
+  text-transform: uppercase;
+  color: gray;
+}
+
+#features .btserv:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(#eb6a3d), to(#ca3423));
+  background-image: linear-gradient(to right, #eb6a3d, #ca3423);
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #FFFF;
+  font-weight: 400;
+}
+
+#features .section-header h3 {
+  color: #363636;
+  /*   padding: 30px 0px 10px 0px;*/
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 3px;
+  padding-top: 25px;
+  position: relative;
+}
+
+#features .bordersthemeview {
+  text-align: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 45px;
+}
+
+#features .border1 {
+  background-color: #ca3423;
+  width: 8px;
+  height: 8px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  margin-right: 12px;
+}
+
+#features .border2 {
+  background-color: #ca3423;
+  width: 60px;
+  height: 8px;
+  margin-right: 12px;
+}
+
+#features .border3 {
+  background-color: #ca3423;
+  width: 30px;
+  height: 8px;
+}
+
+#features h2 {
+  color: #363636;
+}
+
+#features .feature-col > div > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#features .feature-col > div > div:last-child {
+  padding-left: 20px;
+}
+
+#features .feature-col .feature-icon {
+  width: 95px;
+  height: 95px;
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  margin-left: 8px !important;
+}
+
+#features .feature-col .feature-icon:hover {
+  background-color: lightgray;
+  -webkit-transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out;
+}
+
+#features .feature-icon img {
+  position: absolute;
+  z-index: 99999999999999999999999;
+  left: 25%;
+  top: 50%;
+  right: 50%;
+  bottom: 50%;
+  margin: auto;
+}
+
+#features .overlay {
+  width: 95px;
+  height: 95px;
+  margin-bottom: 15px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#eb6a3d), to(#ca3423));
+  background-image: linear-gradient(to right, #eb6a3d, #ca3423);
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: -8px;
+}
+
+#features .feature-col h3 {
+  color: #6f6969;
+  font-weight: 600;
+}
+
+#features .feature-col p {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  #features .feature-col p {
+    font-size: small;
+  }
+}
+
+#features .card-block.text-center {
+  border: none;
+  background-color: transparent;
+}
+
+#overview {
+  background-image: url("../../assets/reviewbackground.png");
+  margin-bottom: 25px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 45px;
+}
+
+#overview .pargh {
+  padding: 30px 60px 40px;
+  font-weight: 100;
+}
+
+@media (max-width: 768px) {
+  #overview .pargh {
+    padding: 0px;
+    font-size: 8px;
+  }
+}
+
+#overview .pargh p {
+  color: #FFFF;
+  font-weight: 100;
+}
+
+#overview .section-header h3 {
+  color: #FFFF;
+  /*   padding: 30px 0px 10px 0px;*/
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+#overview .bordersthemeview {
+  text-align: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+#overview .border1 {
+  background-color: #ca3423;
+  width: 8px;
+  height: 8px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  margin-right: 12px;
+}
+
+#overview .border2 {
+  background-color: #ca3423;
+  width: 60px;
+  height: 8px;
+  margin-right: 12px;
+}
+
+#overview .border3 {
+  background-color: #ca3423;
+  width: 30px;
+  height: 8px;
+}
+/*# sourceMappingURL=clents.component.css.map */

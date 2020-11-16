@@ -1,0 +1,124 @@
+body {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+#offics .section-header h3 {
+  color: #363636;
+  /*   padding: 30px 0px 10px 0px;*/
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 24px;
+}
+
+#offics .bordersthemeblogs {
+  text-align: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 45px;
+}
+
+#offics .border1 {
+  background-color: #ca3423;
+  width: 8px;
+  height: 8px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  margin-right: 12px;
+}
+
+#offics .border2 {
+  background-color: #ca3423;
+  width: 60px;
+  height: 8px;
+  margin-right: 12px;
+}
+
+#offics .border3 {
+  background-color: #ca3423;
+  width: 30px;
+  height: 8px;
+}
+
+#offics .box {
+  -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 45px;
+}
+
+@media (max-width: 768px) {
+  #offics .pad {
+    padding: 15px !important;
+  }
+}
+
+#offics .content {
+  text-align: left;
+  padding: 25px 25px 10px 25px;
+}
+
+#offics h3 {
+  font-weight: 800;
+  font-size: 24px;
+  letter-spacing: 4;
+  text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+  #offics h3 {
+    font-size: 12px;
+  }
+}
+
+#offics .content span {
+  color: #eb6a3d;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+#offics .content p {
+  margin-top: 25px;
+  color: #363636;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  #offics .content p {
+    font-size: 10px;
+  }
+}
+
+#offics .social-links {
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+#offics .social-links i {
+  background-color: #0a2134;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  font-size: 10px;
+  margin-right: 15px;
+}
+
+#offics .box1 {
+  margin-bottom: 30px;
+}
+
+#offics .contentbox img {
+  margin-bottom: 10px;
+}
+
+#offics .contentbox span {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+/*# sourceMappingURL=portoflio.component.css.map */

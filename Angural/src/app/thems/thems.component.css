@@ -1,0 +1,59 @@
+body {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+#themes {
+  background-image: -webkit-gradient(linear, left top, right top, from(#eb6a3d), to(#ca3423));
+  background-image: linear-gradient(to right, #eb6a3d, #ca3423);
+}
+
+#themes .themeone {
+  position: relative;
+}
+
+#themes .themeone {
+  padding: 14px;
+}
+
+#themes .section-header {
+  position: relative;
+}
+
+#themes .section-header h3 {
+  color: #FFFF;
+  padding: 30px 0px 10px 0px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 25px;
+}
+
+#themes .borderstheme {
+  text-align: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+#themes .border1 {
+  background-color: #FFFF;
+  width: 8px;
+  height: 8px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  margin-right: 12px;
+}
+
+#themes .border2 {
+  background-color: #FFFF;
+  width: 60px;
+  height: 8px;
+  margin-right: 12px;
+}
+
+#themes .border3 {
+  background-color: #FFFF;
+  width: 30px;
+  height: 8px;
+}
+/*# sourceMappingURL=thems.component.css.map */
